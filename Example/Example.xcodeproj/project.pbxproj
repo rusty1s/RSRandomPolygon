@@ -7,34 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6190ED281B7B457D00393954 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6190ED271B7B457D00393954 /* AppDelegate.swift */; };
-		6190ED2A1B7B457E00393954 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6190ED291B7B457E00393954 /* ViewController.swift */; };
-		6190ED2D1B7B457E00393954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6190ED2B1B7B457E00393954 /* Main.storyboard */; };
-		6190ED2F1B7B457E00393954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6190ED2E1B7B457E00393954 /* Assets.xcassets */; };
-		6190ED431B7B466900393954 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6190ED421B7B466900393954 /* Scene.swift */; };
-		6190ED461B7B46A800393954 /* RSRandomPolygon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6190ED3F1B7B458E00393954 /* RSRandomPolygon.framework */; };
-		6190ED481B7B46BE00393954 /* RSRandomPolygon.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 6190ED3F1B7B458E00393954 /* RSRandomPolygon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6190ED4A1B7B46DF00393954 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6190ED491B7B46DF00393954 /* Default-568h@2x.png */; };
+		612688051B7B485300F4D2AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612688041B7B485300F4D2AF /* AppDelegate.swift */; };
+		612688071B7B485300F4D2AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612688061B7B485300F4D2AF /* ViewController.swift */; };
+		6126880A1B7B485300F4D2AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 612688081B7B485300F4D2AF /* Main.storyboard */; };
+		6126880C1B7B485300F4D2AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6126880B1B7B485300F4D2AF /* Assets.xcassets */; };
+		612688171B7B488E00F4D2AF /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612688161B7B488E00F4D2AF /* Scene.swift */; };
+		612688231B7B49CF00F4D2AF /* RSRandomPolygon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6126881E1B7B49BD00F4D2AF /* RSRandomPolygon.framework */; };
+		612688251B7B49E200F4D2AF /* RSRandomPolygon.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 6126881E1B7B49BD00F4D2AF /* RSRandomPolygon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6190ED3E1B7B458E00393954 /* PBXContainerItemProxy */ = {
+		6126881D1B7B49BD00F4D2AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6190ED391B7B458E00393954 /* RSRandomPolygon.xcodeproj */;
+			containerPortal = 612688181B7B49BC00F4D2AF /* RSRandomPolygon.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 6190ECFD1B7B450100393954;
 			remoteInfo = RSRandomPolygon;
 		};
-		6190ED401B7B458E00393954 /* PBXContainerItemProxy */ = {
+		6126881F1B7B49BD00F4D2AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6190ED391B7B458E00393954 /* RSRandomPolygon.xcodeproj */;
+			containerPortal = 612688181B7B49BC00F4D2AF /* RSRandomPolygon.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 6190ED071B7B450100393954;
 			remoteInfo = RSRandomPolygonTests;
 		};
-		6190ED441B7B469F00393954 /* PBXContainerItemProxy */ = {
+		612688211B7B49C800F4D2AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6190ED391B7B458E00393954 /* RSRandomPolygon.xcodeproj */;
+			containerPortal = 612688181B7B49BC00F4D2AF /* RSRandomPolygon.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 6190ECFC1B7B450100393954;
 			remoteInfo = RSRandomPolygon;
@@ -42,13 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6190ED471B7B46AE00393954 /* Copy Frameworks */ = {
+		612688241B7B49D200F4D2AF /* Copy Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6190ED481B7B46BE00393954 /* RSRandomPolygon.framework in Copy Frameworks */,
+				612688251B7B49E200F4D2AF /* RSRandomPolygon.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,65 +55,63 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6190ED241B7B457D00393954 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6190ED271B7B457D00393954 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6190ED291B7B457E00393954 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6190ED2C1B7B457E00393954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6190ED2E1B7B457E00393954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6190ED331B7B457E00393954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6190ED391B7B458E00393954 /* RSRandomPolygon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RSRandomPolygon.xcodeproj; path = ../RSRandomPolygon/RSRandomPolygon.xcodeproj; sourceTree = "<group>"; };
-		6190ED421B7B466900393954 /* Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
-		6190ED491B7B46DF00393954 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		612688011B7B485300F4D2AF /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		612688041B7B485300F4D2AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		612688061B7B485300F4D2AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		612688091B7B485300F4D2AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6126880B1B7B485300F4D2AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		612688101B7B485300F4D2AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		612688161B7B488E00F4D2AF /* Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		612688181B7B49BC00F4D2AF /* RSRandomPolygon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RSRandomPolygon.xcodeproj; path = ../RSRandomPolygon/RSRandomPolygon.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6190ED211B7B457D00393954 /* Frameworks */ = {
+		612687FE1B7B485300F4D2AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6190ED461B7B46A800393954 /* RSRandomPolygon.framework in Frameworks */,
+				612688231B7B49CF00F4D2AF /* RSRandomPolygon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6190ED1B1B7B457D00393954 = {
+		612687F81B7B485200F4D2AF = {
 			isa = PBXGroup;
 			children = (
-				6190ED491B7B46DF00393954 /* Default-568h@2x.png */,
-				6190ED391B7B458E00393954 /* RSRandomPolygon.xcodeproj */,
-				6190ED261B7B457D00393954 /* Example */,
-				6190ED251B7B457D00393954 /* Products */,
+				612688181B7B49BC00F4D2AF /* RSRandomPolygon.xcodeproj */,
+				612688031B7B485300F4D2AF /* Example */,
+				612688021B7B485300F4D2AF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6190ED251B7B457D00393954 /* Products */ = {
+		612688021B7B485300F4D2AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6190ED241B7B457D00393954 /* Example.app */,
+				612688011B7B485300F4D2AF /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6190ED261B7B457D00393954 /* Example */ = {
+		612688031B7B485300F4D2AF /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				6190ED271B7B457D00393954 /* AppDelegate.swift */,
-				6190ED291B7B457E00393954 /* ViewController.swift */,
-				6190ED421B7B466900393954 /* Scene.swift */,
-				6190ED2B1B7B457E00393954 /* Main.storyboard */,
-				6190ED2E1B7B457E00393954 /* Assets.xcassets */,
-				6190ED331B7B457E00393954 /* Info.plist */,
+				612688041B7B485300F4D2AF /* AppDelegate.swift */,
+				612688061B7B485300F4D2AF /* ViewController.swift */,
+				612688161B7B488E00F4D2AF /* Scene.swift */,
+				612688081B7B485300F4D2AF /* Main.storyboard */,
+				6126880B1B7B485300F4D2AF /* Assets.xcassets */,
+				612688101B7B485300F4D2AF /* Info.plist */,
 			);
 			path = Example;
 			sourceTree = "<group>";
 		};
-		6190ED3A1B7B458E00393954 /* Products */ = {
+		612688191B7B49BC00F4D2AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6190ED3F1B7B458E00393954 /* RSRandomPolygon.framework */,
-				6190ED411B7B458E00393954 /* RSRandomPolygonTests.xctest */,
+				6126881E1B7B49BD00F4D2AF /* RSRandomPolygon.framework */,
+				612688201B7B49BD00F4D2AF /* RSRandomPolygonTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,40 +119,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6190ED231B7B457D00393954 /* Example */ = {
+		612688001B7B485300F4D2AF /* Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6190ED361B7B457E00393954 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildConfigurationList = 612688131B7B485300F4D2AF /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
-				6190ED201B7B457D00393954 /* Sources */,
-				6190ED211B7B457D00393954 /* Frameworks */,
-				6190ED221B7B457D00393954 /* Resources */,
-				6190ED471B7B46AE00393954 /* Copy Frameworks */,
+				612687FD1B7B485300F4D2AF /* Sources */,
+				612687FE1B7B485300F4D2AF /* Frameworks */,
+				612687FF1B7B485300F4D2AF /* Resources */,
+				612688241B7B49D200F4D2AF /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6190ED451B7B469F00393954 /* PBXTargetDependency */,
+				612688221B7B49C800F4D2AF /* PBXTargetDependency */,
 			);
 			name = Example;
 			productName = Example;
-			productReference = 6190ED241B7B457D00393954 /* Example.app */;
+			productReference = 612688011B7B485300F4D2AF /* Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6190ED1C1B7B457D00393954 /* Project object */ = {
+		612687F91B7B485200F4D2AF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Matthias Fey";
 				TargetAttributes = {
-					6190ED231B7B457D00393954 = {
+					612688001B7B485300F4D2AF = {
 						CreatedOnToolsVersion = 7.0;
 					};
 				};
 			};
-			buildConfigurationList = 6190ED1F1B7B457D00393954 /* Build configuration list for PBXProject "Example" */;
+			buildConfigurationList = 612687FC1B7B485200F4D2AF /* Build configuration list for PBXProject "Example" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -163,78 +160,77 @@
 				en,
 				Base,
 			);
-			mainGroup = 6190ED1B1B7B457D00393954;
-			productRefGroup = 6190ED251B7B457D00393954 /* Products */;
+			mainGroup = 612687F81B7B485200F4D2AF;
+			productRefGroup = 612688021B7B485300F4D2AF /* Products */;
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 6190ED3A1B7B458E00393954 /* Products */;
-					ProjectRef = 6190ED391B7B458E00393954 /* RSRandomPolygon.xcodeproj */;
+					ProductGroup = 612688191B7B49BC00F4D2AF /* Products */;
+					ProjectRef = 612688181B7B49BC00F4D2AF /* RSRandomPolygon.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
-				6190ED231B7B457D00393954 /* Example */,
+				612688001B7B485300F4D2AF /* Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		6190ED3F1B7B458E00393954 /* RSRandomPolygon.framework */ = {
+		6126881E1B7B49BD00F4D2AF /* RSRandomPolygon.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = RSRandomPolygon.framework;
-			remoteRef = 6190ED3E1B7B458E00393954 /* PBXContainerItemProxy */;
+			remoteRef = 6126881D1B7B49BD00F4D2AF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6190ED411B7B458E00393954 /* RSRandomPolygonTests.xctest */ = {
+		612688201B7B49BD00F4D2AF /* RSRandomPolygonTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = RSRandomPolygonTests.xctest;
-			remoteRef = 6190ED401B7B458E00393954 /* PBXContainerItemProxy */;
+			remoteRef = 6126881F1B7B49BD00F4D2AF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6190ED221B7B457D00393954 /* Resources */ = {
+		612687FF1B7B485300F4D2AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6190ED2F1B7B457E00393954 /* Assets.xcassets in Resources */,
-				6190ED2D1B7B457E00393954 /* Main.storyboard in Resources */,
-				6190ED4A1B7B46DF00393954 /* Default-568h@2x.png in Resources */,
+				6126880C1B7B485300F4D2AF /* Assets.xcassets in Resources */,
+				6126880A1B7B485300F4D2AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6190ED201B7B457D00393954 /* Sources */ = {
+		612687FD1B7B485300F4D2AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6190ED2A1B7B457E00393954 /* ViewController.swift in Sources */,
-				6190ED281B7B457D00393954 /* AppDelegate.swift in Sources */,
-				6190ED431B7B466900393954 /* Scene.swift in Sources */,
+				612688071B7B485300F4D2AF /* ViewController.swift in Sources */,
+				612688051B7B485300F4D2AF /* AppDelegate.swift in Sources */,
+				612688171B7B488E00F4D2AF /* Scene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6190ED451B7B469F00393954 /* PBXTargetDependency */ = {
+		612688221B7B49C800F4D2AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RSRandomPolygon;
-			targetProxy = 6190ED441B7B469F00393954 /* PBXContainerItemProxy */;
+			targetProxy = 612688211B7B49C800F4D2AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6190ED2B1B7B457E00393954 /* Main.storyboard */ = {
+		612688081B7B485300F4D2AF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6190ED2C1B7B457E00393954 /* Base */,
+				612688091B7B485300F4D2AF /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -242,7 +238,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6190ED341B7B457E00393954 /* Debug */ = {
+		612688111B7B485300F4D2AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -287,7 +283,7 @@
 			};
 			name = Debug;
 		};
-		6190ED351B7B457E00393954 /* Release */ = {
+		612688121B7B485300F4D2AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -325,7 +321,7 @@
 			};
 			name = Release;
 		};
-		6190ED371B7B457E00393954 /* Debug */ = {
+		612688141B7B485300F4D2AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -333,10 +329,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rusty1s.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		6190ED381B7B457E00393954 /* Release */ = {
+		612688151B7B485300F4D2AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -344,30 +341,31 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rusty1s.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6190ED1F1B7B457D00393954 /* Build configuration list for PBXProject "Example" */ = {
+		612687FC1B7B485200F4D2AF /* Build configuration list for PBXProject "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6190ED341B7B457E00393954 /* Debug */,
-				6190ED351B7B457E00393954 /* Release */,
+				612688111B7B485300F4D2AF /* Debug */,
+				612688121B7B485300F4D2AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6190ED361B7B457E00393954 /* Build configuration list for PBXNativeTarget "Example" */ = {
+		612688131B7B485300F4D2AF /* Build configuration list for PBXNativeTarget "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6190ED371B7B457E00393954 /* Debug */,
-				6190ED381B7B457E00393954 /* Release */,
+				612688141B7B485300F4D2AF /* Debug */,
+				612688151B7B485300F4D2AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6190ED1C1B7B457D00393954 /* Project object */;
+	rootObject = 612687F91B7B485200F4D2AF /* Project object */;
 }

@@ -10,7 +10,7 @@ import UIKit
 import SpriteKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -20,9 +20,8 @@ class ViewController: UIViewController {
         scene.scaleMode = .AspectFill
         skView.presentScene(scene)
     }
-
+    
     override func prefersStatusBarHidden() -> Bool {
         return true
     }
 }
-

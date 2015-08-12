@@ -11,4 +11,7 @@ import RSRandomPolygon
 
 class Scene : SKScene {
     
+    override func didMoveToView(view: SKView) {
+        backgroundColor = SKColor.whiteColor()
+    }
 }
