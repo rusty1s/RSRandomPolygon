@@ -171,7 +171,7 @@ public class RandomPolygon {
                 leftHalf = recursiveSpacePartitioning(leftHalf)
                 rightHalf = recursiveSpacePartitioning(rightHalf)
                 
-                // find the half where point2 is directly after point1 (first half)
+                // find the half where point2 is directly after point1 and call it first half
                 let index1 = leftHalf.indexOf(point1)!
                 let index2 = leftHalf.indexOf(point2)!
                 var firstHalf: [CGPoint]
@@ -200,12 +200,11 @@ public class RandomPolygon {
                     secondHalf += temp
                 }
                 
-                // remove point1 and point2 in second half
-                secondHalf.removeAtIndex(0)
+                firstHalf.removeLast()
                 secondHalf.removeLast()
                 
                 // construct polygon
-                return firstHalf + secondHalf
+                return (firstHalf + secondHalf)
             }
             
             return recursiveSpacePartitioning(vertices)
@@ -215,6 +214,30 @@ public class RandomPolygon {
             return []
             
         case .TwoOptMoves:
+            var noIntersections = false
+            while !noIntersections {
+                
+                noIntersections = true
+                
+                for i in 0..<vertices.count {
+                    let startPoint1 = vertices[i]
+                    let endPoint1 = vertices[(i+1)%vertices.count]
+                    let direction1 = CGVector(dx: endPoint1.x-startPoint1.x, dy: endPoint1.y-startPoint1.y)
+                    
+                    for j in 0..<vertices.count {
+                        if j >= i-1 && j <= i+1 { continue }
+                        
+                        let startPoint2 = vertices[j]
+                        let endPoint2 = vertices[(j+1)%vertices.count]
+                        let direction2 = CGVector(dx: endPoint2.x-startPoint2.x, dy: endPoint2.y-startPoint2.y)
+                        
+                        
+                    }
+                }
+                
+                
+            }
+            
             print("todo")
             return []
             
